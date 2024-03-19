@@ -1,0 +1,34 @@
+.customer-list {
+  margin: 20px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.customer-item {
+  padding: 10px;
+  border-bottom: 1px solid #eee;
+}
+
+  .customer-item:hover {
+    background-color: #f5f5f5;
+  }
+
+.customer-name {
+  font-weight: bold;
+}
+
+.customer-details {
+  color: #666;
+}
+
+@media screen and (max-width: 768px) {
+  .customer-list {
+    margin: 10px;
+    padding: 5px;
+  }
+
+  .customer-item {
+    padding: 5px;
+  }
+}

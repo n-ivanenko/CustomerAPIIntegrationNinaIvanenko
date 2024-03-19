@@ -1,0 +1,10 @@
+<div class="customer-list">
+  <div *ngFor="let customer of customers" class="customer-item">
+    <div class="customer-name">{{ customer.name }}</div>
+    <div class="customer-details">
+      <div>Email: {{ customer.email }}</div>
+      <div>Phone: {{ customer.phoneNumber }}</div>
+    </div>
+  </div>
+</div>
+
